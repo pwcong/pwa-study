@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PWA Start</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="darkcyan">
+  <meta name="apple-mobile-web-app-title" content="PWA Native">
+  <link rel="apple-touch-icon" href="imgs/logo-152x152.png">
+
+  <!-- Tile Icon for Windows -->
+  <meta name="msapplication-TileImage" content="imgs/logo-144x144.png">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <a class="logo" href="/">PWA Start</a>
+    </div>
+    <div class="main">
+      <div id="loading">
+        Loading
+        <span>.</span>
+        <span style="animation-delay: 0.4s;">.</span>
+        <span style="animation-delay: 0.8s;">.</span>
+      </div>
+      <div id="tips" style="display: none"></div>
+      <ul id="list" style="display: none">
+      </ul>
+    </div>
+  </div>
+
+  <script src="libs/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

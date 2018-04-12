@@ -1,7 +1,7 @@
 {
-  "name": "pwa-start",
+  "name": "pwa-native",
   "version": "1.0.0",
-  "description": "Start Demo of PWA",
+  "description": "Support native integration",
   "main": "server.js",
   "dependencies": {
     "fastify": "^1.2.1",
